@@ -32,7 +32,7 @@ const goal = 3;
 		<h1>This is a collaborative project between Mike and Didi.</h1>
         <h1>Didi is going to start a blog called 'The Daily Didi', and Mike is learning to code.</h1>
         
-		<p>Here are a few facts about me:</p>
+		<p>Here are a few facts about Mike:</p>
 		<ul>
 			<li>My name is {identity.firstName}.</li>
 			<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
@@ -40,12 +40,12 @@ const goal = 3;
 			    <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
 			}
          </ul>
-         <p>My skills are:</p>
+         <p>His skills are:</p>
          <ul>
              {skills.map((skill) => <li>{skill}</li>)}
          </ul>
 
-	{happy && <p>I am happy to be learning Astro!</p>}
+	{happy && <p>I am happy to be learning</p>}
 
 	{finished && <p>I finished this tutorial!</p>}
 		 
