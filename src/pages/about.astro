@@ -1,3 +1,6 @@
+---
+export const pageTitle = "About Me";
+---
 <a href="/">Home</a>
 <a href="/about/">About</a>
 <a href="/blog/">Blog</a>
@@ -8,9 +11,9 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>The Daily Didi</title>
+		<title>{pageTitle}</title>
 	</head> 
-	    <h1>About</h1>
+	    <h1>{pageTitle}</h1>
 	<body>
 		<h1>This is a collaborative project between Mike and Didi.</h1>
         <h1>Didi is going to start a blog called 'The Daily Didi', and Mike is learning to code.</h1>
