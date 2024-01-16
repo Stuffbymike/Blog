@@ -1,5 +1,14 @@
 ---
-export const pageTitle = "About Me";
+const pageTitle = "About";
+
+const identity = {
+  firstName: "Mike",
+  country: "australia",
+  occupation: "Software Engineer",
+  hobbies: ["Music", "bouldering", "bike-riding", "fantasy novels"],
+};
+
+const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs", "Unity"];
 ---
 <a href="/">Home</a>
 <a href="/about/">About</a>
@@ -17,5 +26,17 @@ export const pageTitle = "About Me";
 	<body>
 		<h1>This is a collaborative project between Mike and Didi.</h1>
         <h1>Didi is going to start a blog called 'The Daily Didi', and Mike is learning to code.</h1>
-        <h1>Watch this space...</h1>
+        
+		<p>Here are a few facts about me:</p>
+		<ul>
+			<li>My name is {identity.firstName}.</li>
+			<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
+			{identity.hobbies.length >= 2 &&
+			    <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+			}
+         </ul>
+         <p>My skills are:</p>
+         <ul>
+             {skills.map((skill) => <li>{skill}</li>)}
+         </ul>
 </html>
