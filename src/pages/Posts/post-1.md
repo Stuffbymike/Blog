@@ -27,7 +27,7 @@ Here's a little rundown on my "stack" (the tools i'm using)
 The page you're currently reading is a .md file stored on my computer.
 A .md file (meaning 'markdown documentation') is a kind of file used to store basic text.
 
-![screenshot](/Users/mike/blog/src/pages/posts/post1screenshot.png)
+![screenshot](/..images/post1screenshot.png)
 
 **GitHub**
 
