@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 
 const pageTitle = "About";
 
@@ -21,12 +22,7 @@ const fontWeight = "bold";
 const textCase = "uppercase";
 
 ---
-<a href="/">Home</a>
-<a href="/about/">About<>
-	<meta>color: rgb(0, 0, 0);
-	<meta>font-size: 4rem;
-  </a>
-<a href="/blog/">Blog</a>
+<Navigation />
 
 <html lang="en">
 	<head>
@@ -48,8 +44,7 @@ const textCase = "uppercase";
 	</head> 
 	    <h1>{pageTitle}</h1>
 	<body>
-		<h1>This is a collaborative project between Mike and Didi.</h1>
-        <h1>Didi is going to start a blog called 'The Daily Didi', and Mike is learning to code.</h1>
+		<h1>This is a project by Mike</h1>
         
 		<p>Here are a few facts about Mike:</p>
 		<ul>

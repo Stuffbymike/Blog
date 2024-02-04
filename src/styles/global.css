@@ -1,14 +1,16 @@
 html {
-    background-color: #18528c;
+    background-color: #79a7d5;
     font-family: 'Times New Roman', Times, serif;
   }
   
   body {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
+    color: white
+
   }
   
   * {

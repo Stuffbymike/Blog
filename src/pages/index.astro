@@ -1,11 +1,10 @@
 ---
-export const pageTitle = "The Daily Didi";
+export const pageTitle = "A Blog For Learning";
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 ---
 
-<a href="/">Home</a>
-<a href="/about/">About</a>
-<a href="/blog/">Blog</a>
+<Navigation />
 
 <html lang="en">
 	<head>
@@ -15,10 +14,14 @@ import '../styles/global.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 	</head> 
-	    <h1>{pageTitle}</h1>
-	</body>
-	    <h1>All aboard the Didi express</h1>
-		<h1>Dandelions!</h1>
-		<a href="/blog/">Click here for Blog Posts</a>
+	    <h1>Hello!</h1>
+		<h1>Welcome to 'a blog for learning'</h1>
+    <p>This is a little blog to track my progress making a blog.
+	I am using a template/tutorial by Astro, following along with their steps.
+	In my blog posts i will try to describe the journey in my own language, as a 
+	way to produce content, and also to challenge me to really wrap my head around the concepts
+    </p>
+
+	<p><a href="/blog/">Click here for Blog Posts</a></p>
 </html>
     
