@@ -21,5 +21,11 @@ html {
     margin: 1rem 0;
     font-size: 2.5rem;
   }
-  
+
+  .horizontal-scroll-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+  }
   
