@@ -19,6 +19,7 @@ import Footer from '../components/Footer.astro';
 	<h1>Hello!</h1>
 
 	<h1>Welcome to 'a blog for learning'</h1>
+
     <p>This is a little blog to track my progress making a blog.
 	I am using a template/tutorial by Astro, following along with their steps.
 	In my blog posts i will try to describe the journey in my own language, as a 
@@ -27,4 +28,9 @@ import Footer from '../components/Footer.astro';
 
 	<p><a href="/blog/">Click here for Blog Posts</a></p>
 	<Footer />
+	<script>
+		document.querySelector('.hamburger').addEventListener('click', () => {
+		  document.querySelector('.nav-links').classList.toggle('expanded');
+		});
+	  </script>
 </html>
