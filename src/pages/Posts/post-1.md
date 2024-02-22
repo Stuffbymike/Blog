@@ -1,14 +1,11 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Post #1'
-pubDate: 2024-05-02
+pubDate: 'February 2nd, 2024'
 description: 'This is the first post of my blog.'
 author: 'Mike'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# Post #1
-
-Published on: Februrary 5, 2024
-
 Since beginning this tutorial, around January 10th, ive progressed through the first couple of steps. 
 I've had a few things getting in the way, like full time work, and then this road trip that i'm currently on.
 
